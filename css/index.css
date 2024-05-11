@@ -1,28 +1,23 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+   font-family: sans-serif;
 }
 nav{
     display: flex;
-    justify-content: center;
-    margin-top: 40px;
-
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 50px;
 }
 .nav-items{
-    
-    display: inline;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 150px;
-    margin-right: 50px;
+  /* border: solid orange;    */
 }
 .nav-item{
-    font-size: 15px;
+    font-size:x-large;
     font-weight: 700;
     display: inline;
-    margin-left: 50px;
-    padding: 50px;
+    margin-left: 40px;
+    padding: 20px;
     
 }
 .nav-item:hover{
@@ -44,16 +39,20 @@ nav{
  }
  .left-section h3{
     font-size: 50px;
+    margin-left: 25px;
  }
  .left-section h1{
+   margin-left: 25px;
     font-size: 80px;
+    font-family: cursive;
  }
+ 
  .sub-headlines{
-
  margin-left: 100px;
+
  }
  .sub-headline img{
-  background-color:#fe7755;
+  background-color:rgb(254,94,53);
   border-radius: 50%;
  }
  .sub-headline{
@@ -64,21 +63,28 @@ nav{
  .text{
     font-weight: 300;
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 40px;
     margin-right: 150px;
  }
  .action-btns{
-    
-    margin-top: 100px;
-    margin-left: 25px;
+    /* border: solid black; */
+   margin-left:10px;
+   margin-right: 100px;
+
 
  }
+
  .action-btn{
-    margin-left: 20px;
-    background-color: #fe7755;
-    height: 50px;
-    width: 200px;
-    border-radius: 20px;
+   /* border: solid rgb(52, 10, 221); */
+    margin-left: 25px;
+    margin-bottom: 100px;
+    margin-top: 25px;
+    background-color: rgb(254,94,53);
+     height: 55px;
+    width: 170px;
+    /* height: 70px;
+    width: 200px; */
+    border-radius: 30px;
  }
  .right-section{
    
@@ -88,43 +94,60 @@ nav{
     position: absolute;
     color: white;
     font-weight: 500;
-    margin-top: 370px;
-    margin-left: 50px;
+    margin-top: 340px;
+    margin-left:30px;
  }
  .discount{
     position: absolute;
+    height: 120px;
     margin-top: 300px;
+    margin-right: 00px;
  }
  .headphone-div{
+   /* border: solid rgb(11, 243, 54); */
    display: flex;
+   margin-top:0px;
+   height: 500px;
+   margin-right: 100px;
  }
  .dots{
+   /* border: solid rgb(195, 7, 247); */
  display: flex;
- margin-left: 200px;
- margin-right: 200px;
- 
-justify-content: space-evenly;
+ margin-left: 120px;
+ margin-right: 230px;
+ /* margin-top: -150px; */
+ justify-content: space-evenly;
 
- 
  }
  .dotyellow-dot{
     border-radius: 50%;
-    height:40px;
-    width: 40px;
+    margin-left: 20px;
+    height:25px;
+    width: 25px;
     background-color: rgb(212, 226, 18); 
-    padding left:10px;
+    /* padding left:10px; */
  }
  .dottomato-dot{
     border-radius: 50%;
-    height:40px;
-    width: 40px;
-    background-color: tomato;
+    height:25px;
+    width: 25px;
+    background-color:rgb(254,94,53);
  }
- .dotblack-dot{
+ .dotblack-dot 
+ {
     border-radius: 50%;
-    height:40px;
-    width: 40px;
+    height:25px;
+    width: 25px;
     background-color: black;
+ }
+ .action-btnns{
+   margin-left: 170px;
+   margin-bottom: 100px;
+   margin-top: 60px;
+   background-color: rgb(254,94,53);
+   height: 55px;
+   width: 170px;
+   border-radius: 30px;
  }
 
 
